@@ -106,9 +106,10 @@ main {
 
 //projects
 .Projectss {
-  display: grid;
-  grid-gap: 20rem;
+  display: flex;
+  grid-gap: 15rem;
   grid-template-columns: repeat(2, 1fr);
+  justify-content: space-evenly;
 }
 
 //Button Styles

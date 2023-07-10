@@ -168,9 +168,10 @@ main {
   border-bottom: #13e2ce 5px solid; }
 
 .Projectss {
-  display: grid;
-  grid-gap: 20rem;
-  grid-template-columns: repeat(2, 1fr); }
+  display: flex;
+  grid-gap: 15rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-evenly; }
 
 .btn {
   display: inline-block;
